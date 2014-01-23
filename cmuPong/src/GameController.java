@@ -36,7 +36,7 @@ public class GameController extends JFrame {
     	*/
 
         board = new BoardDisplay();
-        player1 = new DefaultPaddle(PLAYER1_LOCATION);
+        player1 = new MorelliPaddle(PLAYER1_LOCATION);
         player2 = new DefaultPaddle(PLAYER2_LOCATION);
         player1.setGameController(this);
         player2.setGameController(this);
