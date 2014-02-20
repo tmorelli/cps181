@@ -1,0 +1,5 @@
+Joe Smith,99,98,97,93,80
+Ricky Bobby,75,0,78,90,88
+Freddie Jones,80,80,80,80,80
+Homer Simpson,10,12,10,12,15
+Bob Belcher,87,65,89,90,98
