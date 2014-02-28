@@ -14,8 +14,11 @@ $branchAdded = 0;
 $newBranch;
 
 sub branchUpdated{
-	$branchUpdate = $_[0];
-	#do something with this new branch!!
+        $branchUpdate = $_[0];
+        print("Branch Updated!!");
+        #do something with this new branch!!
+        system("git checkout $branchUpdate");
+        system("cd t1/src && javac Main.java && java Main && rm *.class");
 }
 
 #################################################################
