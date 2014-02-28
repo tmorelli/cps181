@@ -29,13 +29,13 @@ sub checkForNewBranches(){
 	}
 	#new branch
 	foreach my $tmpBranch (@tmpBranches){
-		$found = false;
+		$found = 0;
 		foreach my $branch (@branches){
 			if ($branch eq $tmpBranch) {
-				$found = true;
+				$found = 1;
 			}
 		}
-		if ($found == false){
+		if ($found == 0){
 			print ("New Branch: $tmpBranch\n");
 		}
 	}
