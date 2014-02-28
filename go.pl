@@ -31,9 +31,7 @@ sub checkForNewBranches(){
 	foreach my $tmpBranch (@tmpBranches){
 		$found = false;
 		foreach my $branch (@branches){
-			print ("Comparing: $tmpBranch: $branch\n");
-			if ($branch == $tmpBranch) {
-				print("Setting found to true!");
+			if ($branch eq $tmpBranch) {
 				$found = true;
 			}
 		}
