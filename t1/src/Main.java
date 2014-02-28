@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("");
 		printRecursiveSequence(0,10);
 		System.out.println("");
-		System.out.println(factorial(5));
+		System.out.println(factorial(6));
 		System.out.println(nonFactorial(5));
 		
 		int [] x = {1,2,3,4,5,6,7,8,9};
