@@ -1,0 +1,75 @@
+16,Rnd1 Winner
+9,Pittsburgh
+5,VCU
+13,Tulsa
+11,Dayton
+3,Syracuse
+10,Stanford
+2,Kansas
+16,Coast. Car.
+9,Geo. Wash.
+5,Cincinatti
+4,Michigan St
+6,N. Carolina
+14,NC Central
+10,Saint Johns
+15,UW-Milwaukee
+16,Weber St
+8,Gonzaga
+12,No. Dak. St.
+4,San Diego St
+6,Baylor
+3,Creighton
+7,Oregon
+2,Wisconsin
+1,Wichita St
+9,Kansas St
+5,Saint Louis
+4,Louisville
+11,Rnd1 Winner
+3,Duke
+10,Arizona St.
+15,Wofford
+
+
+16,Rnd1 Winner
+5,VCU
+3,Syracuse
+10,Stanford
+16,Coast. Car.
+5,Cincinatti
+14,NC Central
+15,UW-Milwaukee
+8,Gonzaga
+4,San Diego St
+6,Baylor
+2,Wisconsin
+9,Kansas St
+4,Louisville
+3,Duke
+15,Wofford
+
+
+5,VCU
+3,Syracuse
+5,Cincinatti
+14,NC Central
+4,San Diego St
+2,Wisconsin
+4,Louisville
+15,Wofford
+
+
+5,VCU
+14,NC Central
+4,San Diego St
+4,Louisville
+
+
+14,NC Central
+4,San Diego St
+
+
+4,San Diego St
+
+

@@ -1,0 +1,64 @@
+1,Indiana
+16,TBD
+8,Belmont
+9,Wichita St
+5,Marquette
+12,Lousianna Tech
+4,Kansas St
+13,Bucknell
+6,Ohio St
+11,Memphis
+3,Louisville
+14,Detroit
+7,North Carolina St
+10,Cincinatti
+2,Duke
+15,Northwestern St
+1,Michigan
+16,Northeastern
+8,Notre Dame
+9,Southern Miss
+5,Oklahoma St
+12,Alabama
+4,New Mexico
+13,Ohio
+6,Oklahoma
+11,San Diego St
+3,Butler
+14,Long Beach St
+7,Colorado
+10,St Johns (NY)
+2,Gonzaga
+15,Stony Brook
+1,Miami(FL)
+16,Bryant
+8,VCU
+9,Middle Tenn
+5,Pittsburgh
+12,TBD
+4,Wisconsin
+13,Indiana St
+6,Oregon
+11,TBD
+3,Syracuse
+14,Davidson
+7,Colorado St
+10,Temple
+2,Michigan St
+15,FGCU
+1,Duke
+16,TBD
+8,Missouri
+9,Saint Loius
+5,Illinois
+12,Creighton
+4,Georgetown
+13,South Dakota St
+6,Minnesota
+11,La Salle
+3,Kansas
+14,Harvard
+7,Cincinatti
+10,UNLV
+2,Arizona
+15,Montana
