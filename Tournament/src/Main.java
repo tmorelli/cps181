@@ -13,7 +13,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Tournament t = new Tournament("2013bracket.txt");
+		Tournament t = new Tournament("2014bracket.txt");
 		t.playTournament();
 	}
 
