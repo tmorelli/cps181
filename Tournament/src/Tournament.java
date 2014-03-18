@@ -34,6 +34,9 @@ public class Tournament {
     	*/
 		LinkedList list = new LinkedList();	
 		initLinkedList(list, filename);
+		list.traverseAndPrint();
+		System.out.println("\n");
+
 		
 		while(list.size() != 1){
 			list = playRound(list);
