@@ -1,5 +1,5 @@
 1,Florida
-16,Rnd1 Winner
+16,Albany
 8,Colorado
 9,Pittsburgh
 5,VCU
@@ -51,11 +51,11 @@
 8,Kentucky
 9,Kansas St
 5,Saint Louis
-12,Rnd1 Winner
+12,N Carolina St
 4,Louisville
 13,Manhattan
 6,UMass
-11,Rnd1 Winner
+11,Tennessee
 3,Duke
 14,Mercer
 7,Texas
