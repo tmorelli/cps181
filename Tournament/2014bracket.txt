@@ -47,7 +47,7 @@
 2,Wisconsin
 15,American
 1,Wichita St
-16,Rnd1 Winner
+16,Cal Poly
 8,Kentucky
 9,Kansas St
 5,Saint Louis
