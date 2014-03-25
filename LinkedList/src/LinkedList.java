@@ -21,7 +21,7 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return the size
     	*/
-		return 0;
+		return size;
 	}
 	
 	
@@ -31,7 +31,10 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return true if the list is empty, false otherwise
     	*/
-		return true;
+		if (first == null) {
+			return true;
+		}
+		return false;
 	}
 	public void add(Node n){
     	/*
@@ -39,6 +42,11 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return nothing
     	*/
+		if (!isEmpty()){
+			n.next = first;
+		}
+		first = n;
+		size += 1;
 	}
 	
 	public boolean addAt(Node n, int index){
@@ -47,7 +55,25 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return true if the node was able to be inserted
     	*/
-		return false;
+		Node node  = first;
+		int currentIndex = 0;
+		Node nodeToInsertAfter = null;
+		while (node != null && nodeToInsertAfter == null){
+			if (index == currentIndex){
+				nodeToInsertAfter = node;
+			}
+			else{
+				node = node.next;
+				currentIndex++;
+			}
+		}
+		if (nodeToInsertAfter == null){
+			return false;
+		}
+		n.next = nodeToInsertAfter.next;
+		nodeToInsertAfter.next = n;
+		size ++;
+		return true;
 	}
 	
 	
@@ -57,6 +83,11 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return nothing
     	*/
+		Node ref = first;
+		while (ref != null){
+			System.out.println(ref.toString());
+			ref = ref.next;
+		}
 
 	}
 	public int find(String value){
@@ -65,6 +96,15 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return index with the node, or -1 if it was not found
     	*/
+		Node ref = first;
+		int index = 0;
+		while (ref != null){
+			if (value == ref.value){
+				return index;
+			}
+			ref = ref.next;
+			index ++;
+		}
 		return -1;
 	}
 	public boolean removeValue(String value){
@@ -73,7 +113,12 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return true if the node was removed, false otherwise
     	*/
-		return false;
+		
+		int index = find(value);
+		if (index == -1){
+			return false;
+		}
+		return removeAt(index);
 
 	}
 	
@@ -83,6 +128,54 @@ public class LinkedList {
     	*  Preconditions: None
     	*  Postconditions: return true if the node was removed, false otherwise
     	*/
-		return false;
+		Node n = first;
+		int currentIndex = 0;
+		Node nodeToRemove = null;
+		Node previousNode = null;
+		
+		while (n!= null && nodeToRemove == null){
+			if (index == currentIndex){
+				nodeToRemove = n;
+			}
+			else{
+				previousNode = n;
+				n=n.next;
+				currentIndex++;
+			}
+		}
+		if (nodeToRemove == null)
+			return false;
+		if (nodeToRemove == first){
+			first = first.next;
+			size--;
+		}
+		else if (nodeToRemove.next == null){
+			previousNode.next = null;
+			size--;
+		}
+		else{
+			previousNode.next = nodeToRemove.next;
+			size--;
+		}
+		return true;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
